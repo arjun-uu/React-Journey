@@ -1,7 +1,12 @@
-
+import Chai from "./chai"
 function App() {
+  const username = "chai aur code"
   return (
-   <h1>hello world from vite</h1>
+    <>  {/* fragments*/}
+   <Chai/>
+   <p>hello react {username}</p>
+   <h1>hello h1</h1>
+    </>  
   )
 }
 
