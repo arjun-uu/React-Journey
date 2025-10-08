@@ -9,7 +9,6 @@ function App() {
       style={{ backgroundColor: color }}
     >
 
-      {/* Fixed Bottom Bar */}
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-4 py-2 bg-white shadow-lg rounded gap-2">
         <button
           className="px-4 py-2 rounded font-semibold bg-white"
